@@ -19,4 +19,8 @@ Route::get('/about', function () {
     return view('about');
 });
 
+Route::get('/register', function () {
+    return view('about');
+});
+
 // More testing of commiting.
