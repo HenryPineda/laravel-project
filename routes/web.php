@@ -28,4 +28,10 @@ Route::get('/reporting', function(){
 
 	return 'Reporting feature';
 })
+
+Route::get('/Reporting2', function(){
+
+
+	return 'Feature Reporting2';
+})
 // More testing of commiting.
