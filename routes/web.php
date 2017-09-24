@@ -23,4 +23,9 @@ Route::get('/register', function () {
     return 'Register page';
 });
 
+Route::get('/reporting', function(){
+
+
+	return 'Reporting feature';
+})
 // More testing of commiting.
