@@ -20,7 +20,7 @@ Route::get('/about', function () {
 });
 
 Route::get('/register', function () {
-    return view('about');
+    return 'Register page';
 });
 
 // More testing of commiting.
